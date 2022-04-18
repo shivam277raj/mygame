@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #011F3F;
+}
+
+.container {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 70px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 5px;
+}
+
+.middle {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.btn {
+    margin: 25px;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+#level-title {
+    font-family: 'Montserrat', cursive;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: #c6a410;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
